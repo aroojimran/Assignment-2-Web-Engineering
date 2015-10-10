@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:rgba(243,12,16,1.00);	
+	
+	
+}
+
+
+.col
+{
+color:rgba(243,7,11,1.00);
+display:inline;
+font-size:25px;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-width:bold;	
+	
+}
+
+	
+.hello
+{
+	
+top-margin:400px;	
+}
+
+
+.star-five {
+   margin: 200px 550px;
+   margin-top:200px;
+   position: relative;
+   display: block;
+   color: silver;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid silver;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+}
+.star-five:before {
+   border-bottom: 80px solid silver;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+
+}
+.star-five:after {
+   position: absolute;
+   display: block;
+   color: silver;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid silver;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+}
+
+
+
+body
+{
+background-image:url(background-image.jpg);	
+	
+}
+
+
+span#Correct {
+    display:none;
+}
+
+span#Wrong {
+    display:none;
+}
+
+
+input#show:checked ~ span#Correct{
+  display:block;
+}
+input#show:checked ~ span#Wrong{
+  display:none;
+}
+
+input#hide:checked ~ span#Wrong{
+  display:block;
+}
+input#hide:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide2:checked ~ span#Wrong{
+  display:block;
+}
+input#hide2:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide3:checked ~ span#Wrong{
+  display:block;
+}
+input#hide3:checked ~ span#Correct{
+  display:none;
+}
+
+
+a
+{
+	
+color:	grey;
+	font-size:24px;
+	display:inline;
+	
+}

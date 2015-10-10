@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:rgba(243,12,16,1.00);	
+	
+	
+}
+
+
+.col
+{
+color:rgba(243,7,11,1.00);
+display:inline;
+font-size:25px;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-width:bold;	
+	
+}
+
+.hey
+{
+	
+margin-top:125px;	
+}
+
+body
+{
+background-image:url(background-image.jpg);	
+	
+}
+
+
+span#Correct {
+    display:none;
+}
+
+span#Wrong {
+    display:none;
+}
+
+
+input#show:checked ~ span#Correct{
+  display:block;
+}
+input#show:checked ~ span#Wrong{
+  display:none;
+}
+
+input#hide:checked ~ span#Wrong{
+  display:block;
+}
+input#hide:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide2:checked ~ span#Wrong{
+  display:block;
+}
+input#hide2:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide3:checked ~ span#Wrong{
+  display:block;
+}
+input#hide3:checked ~ span#Correct{
+  display:none;
+}
+
+
+a
+{
+	
+color:	grey;
+	font-size:24px;
+	display:inline;
+	
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:rgba(243,12,16,1.00);	
+	
+	
+}
+
+
+.col
+{
+color:rgba(243,7,11,1.00);
+display:inline;
+font-size:25px;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-width:bold;	
+	
+}
+
+.hey
+{
+	
+margin-top:125px;	
+}
+
+body
+{
+background-image:url(background-image.jpg);	
+	
+}
+
+
+span#Correct {
+    display:none;
+}
+
+span#Wrong {
+    display:none;
+}
+
+
+input#show:checked ~ span#Correct{
+  display:block;
+}
+input#show:checked ~ span#Wrong{
+  display:none;
+}
+
+input#hide:checked ~ span#Wrong{
+  display:block;
+}
+input#hide:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide2:checked ~ span#Wrong{
+  display:block;
+}
+input#hide2:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide3:checked ~ span#Wrong{
+  display:block;
+}
+input#hide3:checked ~ span#Correct{
+  display:none;
+}
+
+
+a
+{
+	
+color:	grey;
+	font-size:24px;
+	display:inline;
+	
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+.stage {
+  background-color:rgba(225,225,225,0.56);
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  width: 700px;
+  top:100px;
+  left:300px;
+  border-bottom-width:thick;
+  border-color:red;
+  border-style:solid;
+
+  
+}
+.stage:hover .ball {
+  animation: slide 2s linear;
+}
+.ball {
+  background: red;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.heyy
+{
+	
+margin-top:150px;	
+	
+}
+
+
+
+#work
+{
+	
+margin-top:65px;	
+	
+	
+}

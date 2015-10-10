@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	text-align:center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:rgba(243,12,16,1.00);	
+	
+	
+}
+
+
+.col
+{
+color:rgba(243,7,11,1.00);
+display:inline;
+font-size:25px;
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-width:bold;	
+	
+}
+
+	.bg
+	{
+		
+	background-color:rgba(225,225,225,0.56);	
+	margin-left:400px;
+margin-right:400px;
+margin-top:200px;
+		
+	}
+.hello
+{
+	
+top-margin:400px;	
+
+}
+
+
+.heart
+{
+	width:100px;
+	height:250px;
+margin-top:200px;	
+	margin-left:150px;
+}
+
+body
+{
+background-image:url(background-image.jpg);	
+	
+}
+
+
+span#Correct {
+    display:none;
+}
+
+span#Wrong {
+    display:none;
+}
+
+
+input#show:checked ~ span#Correct{
+  display:block;
+}
+input#show:checked ~ span#Wrong{
+  display:none;
+}
+
+input#hide:checked ~ span#Wrong{
+  display:block;
+}
+input#hide:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide2:checked ~ span#Wrong{
+  display:block;
+}
+input#hide2:checked ~ span#Correct{
+  display:none;
+}
+
+
+input#hide3:checked ~ span#Wrong{
+  display:block;
+}
+input#hide3:checked ~ span#Correct{
+  display:none;
+}
+
+
+a
+{
+	
+color:	grey;
+	font-size:24px;
+	display:inline;
+	
+}

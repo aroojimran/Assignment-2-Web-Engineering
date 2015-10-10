@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+ 
+* { margin: 0; padding: 0; }
+ 
+body {background-image:url(maini.jpg);}
+h1 ,h2{color:#F00A2E; text-shadow:1px 1px #999; font-size:40px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; margin:40px; text-align:center; font-style:italic;}
+.slider {
+    display: block;
+    height: 100px;
+  
+   width:70px;
+    margin: auto; 
+    margin-top: 70px;
+    position: relative;
+	border-width:thick; border-style:solid; border-color:brown;
+	    box-shadow: 10px 10px 5px rgba(244,12,16,1.00);
+transition:width 2s ,height 4s;
+	
+}
+ 
+ .slider:hover{
+	 
+	width:1000px;
+	height:375px; 
+	 
+ }
+.sliderinner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+ 
+.sliderinner>ul {
+    list-style: none;
+    height: 100%;
+    width: 1315%;
+    overflow: hidden;
+    position: relative;
+    left: 0px;
+
+}
+ 
+.sliderinner>ul>li {
+    width:7.6%;
+    height: 390px;
+    float: left;
+    position: relative;
+}
+ 
+.sliderinner>ul>li>img {
+    margin: auto;
+    height: 100%;
+	width:100%
+ 	
+}
+ 
+.slider input[type=radio] {
+    position: absolute;
+    left: 100%;
+    bottom: 15px;
+    z-index: 100;
+    visibility: hidden;
+}
+ 
+.slider label {
+    position: absolute;
+    left: 50%;
+    bottom: -45px;
+    z-index: 100;
+    width: 20px;
+    height: 40px;
+    background-color:#ccc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+ 
+   
+   
+}
+ 
+.slider input[type=radio]#control1:checked~label[for=control1] { background-color:yellow; }
+.slider input[type=radio]#control2:checked~label[for=control2] { background-color: yellow; }
+.slider input[type=radio]#control3:checked~label[for=control3] { background-color: yellow; }
+.slider input[type=radio]#control4:checked~label[for=control4] { background-color: yellow; }
+.slider input[type=radio]#control5:checked~label[for=control5] { background-color: yellow; }
+.slider input[type=radio]#control6:checked~label[for=control6] { background-color: yellow; }
+.slider input[type=radio]#control7:checked~label[for=control7] { background-color: yellow; }
+.slider input[type=radio]#control8:checked~label[for=control8] { background-color: yellow; }
+.slider input[type=radio]#control9:checked~label[for=control9] { background-color: yellow; }
+.slider input[type=radio]#control10:checked~label[for=control10] { background-color: yellow; }
+.slider input[type=radio]#control11:checked~label[for=control11] { background-color: yellow; }
+.slider input[type=radio]#control12:checked~label[for=control12] { background-color: yellow; }
+.slider input[type=radio]#control13:checked~label[for=control13] { background-color: yellow; }
+.slider label[for=control1] { margin-left: -108px }
+.slider label[for=control2] { margin-left: -90px }
+.slider label[for=control3] { margin-left: -72px }
+.slider label[for=control4] { margin-left: -54px }
+.slider label[for=control5] { margin-left: -36px }
+.slider label[for=control6] { margin-left: -18px }
+.slider label[for=control8] { margin-left: 18px }
+.slider label[for=control9] { margin-left: 36px }
+.slider label[for=control10] { margin-left: 54px }
+.slider label[for=control11] { margin-left: 72px }
+.slider label[for=control12] { margin-left: 90px }
+.slider label[for=control13] { margin-left: 108px }
+
+
+.slider input[type=radio]#control1:checked~.sliderinner>ul { left: 0 }
+.slider input[type=radio]#control2:checked~.sliderinner>ul { left: -100% }
+.slider input[type=radio]#control3:checked~.sliderinner>ul { left: -200% }
+.slider input[type=radio]#control4:checked~.sliderinner>ul { left: -300% }
+.slider input[type=radio]#control5:checked~.sliderinner>ul { left: -400% }
+.slider input[type=radio]#control6:checked~.sliderinner>ul { left: -500% }
+.slider input[type=radio]#control7:checked~.sliderinner>ul { left: -600% }
+.slider input[type=radio]#control8:checked~.sliderinner>ul { left: -700% }
+.slider input[type=radio]#control9:checked~.sliderinner>ul { left: -800% }
+.slider input[type=radio]#control10:checked~.sliderinner>ul { left: -900% }
+.slider input[type=radio]#control11:checked~.sliderinner>ul { left: -1000% }
+.slider input[type=radio]#control12:checked~.sliderinner>ul { left: -1100% }
+.slider input[type=radio]#control13:checked~.sliderinner>ul { left: -1200% } 
+
+a
+{
+	
+
+color:#0834AB;
+	font-size:30px;
+	display:inline;
+	
+}

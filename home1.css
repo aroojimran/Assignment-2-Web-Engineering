@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+	
+	body 
+	{
+		
+	background-image:url(maini.jpg);
+	border:#000000;  	
+background-color:#8FF0A9;
+	background-repeat:no-repeat;
+	
+	}
+	
+
+h1 {
+	
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color:#0EF8B3;
+	font-style:italic;
+	font-weight:bold;
+	font-size:150px;
+	
+	
+	
+	}
+	
+	a
+	{
+		
+	font-size:30px;
+	color:silver;	
+	
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black";
+		
+		
+	}
+	
+a:hover
+{
+color:red;	
+	
+}
+
+.to
+	{
+		margin-top:20px;
+	margin-left:1000px;	
+		margin-bottom:20px;
+		
+	}
